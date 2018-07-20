@@ -1,0 +1,28 @@
+/* membuat kotak standar */
+.kotak-default{
+	width: 150px;
+	height: 150px;
+	padding: 10px;
+	margin: 10px;
+	background-color: green;	
+}
+
+/* membuat kotak dengan border */
+.kotak-border{
+	width: 150px;
+	height: 150px;
+	padding: 10px;
+	margin: 10px;
+	background-color: green;
+	border: solid 6px black;	
+}
+
+/* membuat kotak dengan radius */
+.kotak-radius{
+	width: 150px;
+	height: 150px;
+	padding: 10px;
+	margin: 10px;
+	background-color: green;
+	border-radius: 8px;
+}

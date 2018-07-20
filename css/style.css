@@ -1,0 +1,22 @@
+/* membuat kolom 3 dibagi rata */
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.text-center{
+	text-align: center;
+}
+
+/* mendeteksi ukuran layar */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
